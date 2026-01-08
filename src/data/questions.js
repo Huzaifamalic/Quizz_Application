@@ -1,0 +1,127 @@
+export const questions = [
+  {
+    id: 1,
+    question: "Which language is React based on?",
+    options: ["Python", "Java", "JavaScript", "PHP"],
+    answer: "JavaScript",
+  },
+  {
+    id: 2,
+    question: "What is React mainly used for?",
+    options: [
+      "Database management",
+      "Building user interfaces",
+      "Server-side scripting",
+      "Game development",
+    ],
+    answer: "Building user interfaces",
+  },
+  {
+    id: 3,
+    question: "What is JSX in React?",
+    options: [
+      "A JavaScript extension for writing HTML-like code",
+      "A CSS framework",
+      "A database language",
+      "A backend framework",
+    ],
+    answer: "A JavaScript extension for writing HTML-like code",
+  },
+  {
+    id: 4,
+    question: "Which command is used to create a React app?",
+    options: [
+      "npm create-react-app",
+      "npm start react",
+      "npx create-react-app",
+      "react-new-app",
+    ],
+    answer: "npx create-react-app",
+  },
+  {
+    id: 5,
+    question: "What hook is used to manage state in a functional component?",
+    options: ["useEffect", "useState", "useContext", "useRef"],
+    answer: "useState",
+  },
+  {
+    id: 6,
+    question: "Which hook is used for side effects in React?",
+    options: ["useState", "useEffect", "useMemo", "useReducer"],
+    answer: "useEffect",
+  },
+  {
+    id: 7,
+    question: "What is React Router used for?",
+    options: [
+      "Styling components",
+      "Handling navigation",
+      "Managing state",
+      "Connecting database",
+    ],
+    answer: "Handling navigation",
+  },
+  {
+    id: 8,
+    question: "Which company developed React?",
+    options: ["Google", "Microsoft", "Facebook", "Amazon"],
+    answer: "Facebook",
+  },
+  {
+    id: 9,
+    question: "What does DOM stand for?",
+    options: [
+      "Document Object Model",
+      "Data Object Model",
+      "Digital Object Method",
+      "Document Order Model",
+    ],
+    answer: "Document Object Model",
+  },
+  {
+    id: 10,
+    question: "What is the virtual DOM?",
+    options: [
+      "A copy of the real DOM kept in memory",
+      "A database",
+      "A browser feature",
+      "A JavaScript library",
+    ],
+    answer: "A copy of the real DOM kept in memory",
+  },
+  {
+    id: 11,
+    question: "Which method is used to pass data to a component?",
+    options: ["State", "Props", "Hooks", "Context"],
+    answer: "Props",
+  },
+  {
+    id: 12,
+    question: "Which hook is used to access route parameters?",
+    options: ["useState", "useParams", "useRoute", "useNavigate"],
+    answer: "useParams",
+  },
+  {
+    id: 13,
+    question: "What is Tailwind CSS?",
+    options: [
+      "A JavaScript framework",
+      "A utility-first CSS framework",
+      "A database",
+      "A React library",
+    ],
+    answer: "A utility-first CSS framework",
+  },
+  {
+    id: 14,
+    question: "Which keyword is used to export a component?",
+    options: ["send", "export", "return", "default"],
+    answer: "export",
+  },
+  {
+    id: 15,
+    question: "Which hook is used for navigation in React Router?",
+    options: ["useLocation", "useNavigate", "useHistory", "useRoute"],
+    answer: "useNavigate",
+  },
+];
